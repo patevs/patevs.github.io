@@ -19,11 +19,15 @@ then launch the jar with the token:
 
 * `java -Dapi-tokens=your-token -jar target/profile-summary-for-github-jar-with-dependencies.jar`
 
+java -Dapi-tokens=44ae3a87c67504b99608a13e35e9bcfc4013aa12 -jar target/profile-summary-for-github-jar-with-dependencies.jar
+44ae3a87c67504b99608a13e35e9bcfc4013aa12
+
 You can use a comma-separated list of tokens to increase your rate-limit
 
 You can build a profile summary for any GitHub profile using `-Dunrestricted=true`:
 
 * `java -Dunrestricted=true -jar target/profile-summary-for-github-jar-with-dependencies.jar`
+
 
 You can set when the app should require user-starring by passing `free-requests-cutoff`
 Passing 1000 will require the app to require starring if there are less than 1000 requests left:
