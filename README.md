@@ -1,4 +1,6 @@
-# profile-summary-for-github
+# patevs.github.io
+
+Source: [`profile-summary-for-github`](https://github.com/tipsy/profile-summary-for-github)
 
 ## live at [https://profile-summary-for-github.com/](https://profile-summary-for-github.com/)
 
@@ -46,3 +48,5 @@ You can enable Google Tag Manager on your instance by setting `gtm-id`:
 * `docker run -it --rm --name profile-summary-for-github -p 7070:7070 profile-summary-for-github`
 * OR with a token `docker run -it --rm --name profile-summary-for-github -p 7070:7070 -e "API_TOKENS=mytoken1,mytoken2" profile-summary-for-github`
 * browse to http://localhost:7070
+
+---
