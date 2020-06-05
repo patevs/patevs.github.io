@@ -4,10 +4,20 @@ Source: [`profile-summary-for-github`](https://github.com/tipsy/profile-summary-
 
 ## live at [https://profile-summary-for-github.com/](https://profile-summary-for-github.com/)
 
+---
+
+## Links & Resources
+
+* [`gitshowcase`](https://github.com/gitshowcase/gitshowcase)
+
+---
+
 ## screenshot
+
 ![screenshot](https://user-images.githubusercontent.com/1521451/34072014-4451dbf6-e280-11e7-90a7-32ad1f313541.PNG)
 
 ## run locally
+
 * `git clone https://github.com/tipsy/profile-summary-for-github.git`
 * `cd profile-summary-for-github`
 * `mvn install`
